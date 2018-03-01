@@ -37,8 +37,8 @@ function balancedBrackets (expression) {
     } else {
       let o = open.pop()
       if (b === '}' && o !== '{' ||
-				  b === ']' && o !== '[' ||
-				  b === ')' && o !== '(') {
+          b === ']' && o !== '[' ||
+          b === ')' && o !== '(') {
         return 'NO'
       }
     }
